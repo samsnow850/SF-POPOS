@@ -1,0 +1,62 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Users collection - users can only read/write their own document
+    match /users/{userId} {
+      // Allow read if the user is authenticated and requesting their own document
+      allow read: if request.auth != null && request.auth.uid == userId;
+      
+      // Allow create if the user is authenticated and creating their own document
+      allow create: if request.auth != null 
+                    && request.auth.uid == userId
+                    && request.resource.data.uid == userId
+                    && request.resource.data.email == request.auth.token.email;
+      
+      // Allow update if the user is authenticated and updating their own document
+      // Protected fields (uid, email, createdAt) must remain unchanged
+      allow update: if request.auth != null 
+                    && request.auth.uid == userId
+                    && request.resource.data.uid == resource.data.uid
+                    && request.resource.data.email == resource.data.email
+                    && request.resource.data.createdAt == resource.data.createdAt;
+      
+      // Don't allow delete (users shouldn't delete their own accounts this way)
+      allow delete: if false;
+    }
+    
+    // User favorites collection - users can only read/write their own favorites
+    match /users/{userId}/favorites/{favoriteId} {
+      // Allow read if the user is authenticated and requesting their own favorites
+      allow read: if request.auth != null && request.auth.uid == userId;
+      
+      // Allow create if the user is authenticated and creating their own favorite
+      allow create: if request.auth != null && request.auth.uid == userId;
+      
+      // Allow update if the user is authenticated and updating their own favorite
+      allow update: if request.auth != null && request.auth.uid == userId;
+      
+      // Allow delete if the user is authenticated and deleting their own favorite
+      allow delete: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // User visited places collection - users can only read/write their own visited places
+    match /users/{userId}/visited/{visitedId} {
+      // Allow read if the user is authenticated and requesting their own visited places
+      allow read: if request.auth != null && request.auth.uid == userId;
+      
+      // Allow create if the user is authenticated and creating their own visited place
+      allow create: if request.auth != null && request.auth.uid == userId;
+      
+      // Allow update if the user is authenticated and updating their own visited place
+      allow update: if request.auth != null && request.auth.uid == userId;
+      
+      // Allow delete if the user is authenticated and deleting their own visited place
+      allow delete: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Default deny all other collections
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
