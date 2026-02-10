@@ -1,0 +1,518 @@
+/* 
+  Localizable.strings (English)
+  SF POPOS
+  
+  Created for localization support.
+*/
+
+// Onboarding
+"onboarding.welcome" = "Welcome to San Francisco's privately owned spaces!";
+"onboarding.what_are_popos" = "What are POPOS?\n\nPrivately owned spaces that are open for everyone to enjoy.";
+"onboarding.discover" = "Discover hidden parks, plazas, and rooftop gardens across San Francisco";
+"onboarding.notifications" = "Stay updated with SF POPOS!\n\nWe'd like to send you notifications about new updates and features.";
+"onboarding.notifications_privacy" = "We're not going to spam you! Push notifications are only to let you know when there is a new update or something important.";
+"onboarding.location" = "To help you find POPOS near you…\n\nWe'll need access to your location.";
+"onboarding.location_privacy" = "We don't track you. Your location is only used to find nearby POPOS.";
+"onboarding.ready" = "Ready to explore POPOS near you in 🌉 San Francisco?";
+"onboarding.enable_later" = "You can always enable location later to find nearby POPOS.";
+
+// Buttons
+"button.skip" = "Skip";
+"button.next" = "Next";
+"button.get_started" = "Get Started";
+"button.continue" = "Continue";
+"button.all_set" = "You're All Set!";
+"button.go_to_settings" = "Go to Settings";
+"button.privacy_policy" = "Privacy Policy";
+"button.terms_conditions" = "Terms & Conditions";
+"button.enable" = "Enable";
+"button.not_now" = "Not Now";
+"button.done" = "Done";
+"button.cancel" = "Cancel";
+"button.restart" = "Restart";
+"button.clear_all_filters" = "Clear All Filters";
+"button.directions" = "Directions";
+"button.view_details" = "View Details";
+
+// Homepage/List
+"home.empty_state.title" = "We couldn't find any locations with these filters";
+"home.empty_state.message" = "Try adjusting your filters to see more results";
+"home.loading" = "Loading...";
+"home.loading_images" = "Loading images...";
+"home.no_locations" = "No locations with coordinates found";
+
+// Filters
+"filter.title" = "Filters & Sort";
+"filter.sort_by" = "Sort By";
+"filter.area" = "Filter by Area";
+"filter.visited_status" = "Filter by Visited Status";
+"filter.availability" = "Availability";
+"filter.show_open_now" = "Show only open now";
+"filter.location_permission_needed" = "Location permission needed for distance sorting";
+"filter.sort.distance" = "Distance";
+"filter.sort.alphabetical" = "A to Z";
+"filter.sort.area" = "Area";
+"filter.area.all" = "All Areas";
+"filter.area.financial" = "Financial District";
+"filter.area.soma" = "SOMA";
+"filter.area.mission" = "Mission";
+"filter.area.embarcadero" = "Embarcadero";
+"filter.visited.all" = "All";
+"filter.visited.visited" = "Visited";
+"filter.visited.unvisited" = "Not Visited";
+
+// Location Detail
+"detail.about_space" = "About this space";
+"detail.amenities" = "Amenities";
+"detail.hours" = "Hours";
+"detail.location" = "Location";
+"detail.food" = "Food";
+"detail.food_service" = "Food Service";
+"detail.restrooms" = "Restrooms";
+"detail.accessible" = "Accessible";
+
+// Favorites
+"favorites.title" = "Favorites";
+"favorites.empty.title" = "No favorites yet";
+"favorites.empty.message" = "Start exploring and tap the heart icon to save your favorite POPOS";
+
+// Settings
+"settings.title" = "Settings";
+"settings.account" = "Account";
+"settings.signed_in_as" = "Signed in as";
+"settings.sign_in_up" = "Sign In / Sign Up";
+"settings.theme" = "Theme";
+"settings.theme.light" = "Light";
+"settings.theme.dark" = "Dark";
+"settings.theme.system" = "System";
+"settings.language" = "Language";
+"settings.language.system" = "System";
+"settings.language.english" = "English";
+"settings.language.spanish" = "Spanish";
+"settings.language.chinese" = "Chinese (Simplified)";
+"settings.language.japanese" = "Japanese";
+"settings.language.filipino" = "Filipino";
+"settings.language.korean" = "Korean";
+"settings.default_map" = "Default Map";
+"settings.map.apple" = "Apple Maps";
+"settings.map.google" = "Google Maps";
+"settings.map.ask" = "Ask Every Time";
+
+// Map Selection
+"map.choose.title" = "Choose Map";
+"map.choose.message" = "Which map app would you like to use for navigation?";
+"settings.browser" = "Browser";
+"settings.browser.in_app" = "In-App Browser";
+"settings.browser.external" = "External Browser";
+"settings.notifications" = "Notifications";
+"settings.about_app" = "About the App";
+"settings.about_popos" = "About POPOS";
+"settings.faq" = "FAQ";
+"settings.changelog" = "Changelog";
+"settings.about_me" = "About Me";
+"settings.links" = "Links";
+"settings.contact_us" = "Contact Us";
+"settings.submit_popos" = "Submit a POPOS";
+"settings.support_us" = "Support Us";
+"settings.rate_us" = "Rate Us";
+"settings.restart_tutorial" = "Restart Tutorial";
+"settings.reset_data" = "Reset Data";
+"settings.debug" = "Debug";
+"settings.version" = "Version 1.6.8";
+"settings.build" = "Build 43";
+
+// Alerts
+"alert.restart_tutorial.title" = "Restart Tutorial";
+"alert.restart_tutorial.message" = "Are you sure you want to restart the tutorial? You'll need to close and reopen the app to see it.";
+"alert.factory_reset.title" = "Factory Reset";
+"alert.factory_reset.message" = "This will completely reset the app to factory defaults. All data will be permanently deleted including:\n• Your favorites\n• Your preferences\n• Theme settings\n• All app data\n\nThis action cannot be undone.";
+"alert.reset_complete.title" = "Reset Complete";
+"alert.reset_complete.message" = "You have to close and reopen the app for the changes to take effect.";
+"alert.notifications.enabled" = "Great, notifications are now working. You should see a test notification.";
+"alert.notifications.disabled.title" = "Notifications Disabled";
+"alert.notifications.disabled" = "Notifications have been turned off. You won't receive any POPOS reminders.";
+"alert.notifications.disabled_title" = "You disabled notifications.";
+
+// Notifications
+"notification.recommended_permissions" = "Recommended Permissions";
+"notification.recommended_message" = "To get the best experience with SF POPOS, we recommend enabling these permissions:";
+"notification.all_enabled" = "✓ All permissions enabled! Welcome to SF POPOS!";
+"notification.skip_for_now" = "Skip for Now";
+"notification.enabled" = "Enabled";
+"notification.location.title" = "Location Access";
+"notification.location.description" = "Find POPOS near you and get directions";
+"notification.location.enable_later" = "You can always enable location later in the app settings";
+"notification.notifications.title" = "Notifications";
+"notification.notifications.description" = "Get updates about new features and POPOS";
+"notification.welcome.title" = "Welcome to SF POPOS";
+"notification.welcome.body" = "POPOS are public, but please be respectful. Keep them clean and welcoming for everyone. Enjoy exploring!";
+
+// About POPOS
+"about_popos.title" = "About POPOS";
+"about_popos.what_are" = "What are POPOS?";
+"about_popos.what_are_description" = "POPOS stands for Privately Owned Public Open Spaces. These are unique plazas, gardens, rooftop terraces, and courtyards that private developers are required to make available to the public in exchange for permission to build taller or denser buildings.";
+"about_popos.discover" = "Discover San Francisco's Hidden Spaces";
+"about_popos.discover_description" = "With this app, you can explore more than 40 of these hidden spots scattered across San Francisco. Whether you're looking for a quiet place to relax, a scenic lunch break, or simply want to discover new corners of the city, SF POPOS makes it easy to find and enjoy these tucked-away urban oases.";
+"about_popos.what_you_can_do" = "What You Can Do";
+"about_popos.feature.map" = "Browse locations on an interactive map";
+"about_popos.feature.details" = "View detailed information about each space";
+"about_popos.feature.favorites" = "Save your favorite POPOS for quick access";
+"about_popos.feature.photos" = "Explore photos of each location";
+"about_popos.feature.nearby" = "Find POPOS near you";
+
+// About Me
+"about_me.title" = "About Me";
+"about_me.name" = "Samuel Snow";
+"about_me.role" = "iOS Developer & SF Enthusiast";
+"about_me.location" = "San Francisco, CA";
+"about_me.about_samuel" = "About Samuel";
+"about_me.about_description" = "Based in San Francisco, I'm a passionate student and developer who loves creating apps that help people discover and enjoy their city. I built SF POPOS because I believe everyone should know about these amazing hidden spaces throughout San Francisco.";
+"about_me.why_created" = "Why I Created This App";
+"about_me.story_title" = "The Story Behind SF POPOS";
+"about_me.story_part1" = "I came up with this idea during an internship with the City of San Francisco in the City Planning department. One of our projects involved looking at public art installations in San Francisco, and I realized that the existing websites were outdated. There's even an app for it—but that's also pretty old and clunky.";
+"about_me.story_part2" = "I've always wanted to build my own mobile app, and this project was the perfect opportunity. It combined my interest in tech with a real need I saw during my internship. Plus, it was just plain fun to create—so that's how this app came to be.";
+"about_me.quick_facts" = "Quick Facts";
+"about_me.fact.student" = "Student";
+"about_me.fact.student_subtitle" = "Learning & Growing";
+"about_me.fact.ios_dev" = "iOS Dev";
+"about_me.fact.ios_dev_subtitle" = "Mobile Apps";
+"about_me.fact.sf_local" = "SF Local";
+"about_me.fact.sf_local_subtitle" = "City Expert";
+"about_me.fact.tech" = "Tech Enthusiast";
+"about_me.fact.tech_subtitle" = "Always Learning";
+"about_me.lets_connect" = "Let's Connect";
+"about_me.visit_website" = "Visit my website";
+
+// App Title
+"app.title" = "SF POPOS";
+
+// Navigation Titles
+"nav.search" = "Search";
+"nav.faq" = "FAQ";
+"nav.changelog" = "Changelog";
+"nav.about_me" = "About Me";
+"nav.share_feedback" = "Share Feedback";
+"nav.roadmap" = "Roadmap";
+"nav.help_support" = "Help & Support";
+"nav.submit_popos" = "Submit a POPOS";
+
+// Tab Bar
+"tab.home" = "Home";
+"tab.map" = "Map";
+"tab.favorites" = "Favorites";
+"tab.settings" = "Settings";
+"tab.search" = "Search";
+
+// Surprise Me
+"surprise.finding_best" = "Finding the best POPOS";
+"surprise.reload.1" = "Still not your style?";
+"surprise.reload.2" = "Hmm, let me try again...";
+"surprise.reload.3" = "Okay, I'm gonna keep trying!";
+"surprise.reload.4" = "Oh my gosh, really?";
+"surprise.reload.5" = "You're picky, aren't you? 😅";
+"surprise.reload.6" = "Alright, alright, one more time!";
+"surprise.reload.7" = "This is getting ridiculous! 😂";
+"surprise.reload.8" = "You know what, I respect the dedication!";
+"surprise.reload.9" = "Fine, fine, here's another one!";
+"surprise.reload.10" = "Are you even trying to like these? 🤔";
+"surprise.reload.11" = "Okay this is the last one... just kidding!";
+"surprise.reload.12" = "You're really committed to this, huh?";
+"surprise.reload.13" = "I admire your persistence! 💪";
+"surprise.reload.14" = "At this point, just pick one already! 😆";
+
+// Status
+"status.open" = "Open";
+"status.closed" = "Closed";
+"status.permanently_closed" = "Permanently Closed";
+"status.open_24_7" = "Open 24/7";
+"status.open_until" = "Open until %@";
+"status.closed_opens_today" = "Closed - Opens today at %@";
+"status.closed_opens_day" = "Closed - Opens %@ at %@";
+"status.closed_opens_day_no_time" = "Closed - Opens %@";
+"status.today" = "Today: %@";
+
+// Distance
+"distance.feet" = "%.0f ft";
+"distance.miles" = "%.1f mi";
+
+// Closed Messages
+"detail.closed.543_howard" = "Office building is for lease and no longer open";
+"detail.closed.crocker_galleria" = "This POPOS is closed/no longer public";
+
+// Changelog Section Titles
+"changelog.section.new_features" = "New Features";
+"changelog.section.ui_improvements" = "UI/UX Improvements";
+"changelog.section.technical" = "Technical Improvements";
+"changelog.section.bug_fixes" = "Bug Fixes";
+"changelog.section.removed" = "Removed";
+"changelog.date.initial_release" = "Initial Release";
+
+// Days of Week
+"day.sunday" = "Sunday";
+"day.monday" = "Monday";
+"day.tuesday" = "Tuesday";
+"day.wednesday" = "Wednesday";
+"day.thursday" = "Thursday";
+"day.friday" = "Friday";
+"day.saturday" = "Saturday";
+
+// Actions
+"action.favorite" = "Favorite";
+"action.visited" = "Visited";
+"action.mark_visited" = "Mark Visited";
+
+// Authentication
+"auth.name" = "Name";
+"auth.email" = "Email";
+"auth.password" = "Password";
+"auth.confirm_password" = "Confirm Password";
+"auth.sign_in" = "Sign In";
+"auth.sign_up" = "Sign Up";
+"auth.create_account" = "Create Account";
+"auth.forgot_password" = "Forgot Password?";
+"auth.already_have_account" = "Already have an account? Sign In";
+"auth.dont_have_account" = "Don't have an account? Sign Up";
+"auth.success" = "Success";
+"auth.account_created" = "Account created successfully!";
+"auth.signed_in" = "Signed in successfully!";
+"auth.error.title" = "Error";
+"auth.error.passwords_not_match" = "Passwords do not match";
+"auth.error.password_length" = "Password must be at least 6 characters";
+"auth.error.window_scene" = "Unable to find window scene";
+"auth.error.root_view_controller" = "Unable to find root view controller";
+"auth.error.failed_create_user" = "Failed to create user";
+"auth.error.failed_sign_in" = "Failed to sign in";
+"auth.error.failed_sign_in_google" = "Failed to sign in with Google";
+"auth.error.failed_get_token" = "Failed to get Google ID token";
+"auth.error.no_client_id" = "No client ID found in Firebase configuration";
+"auth.error.failed_create_profile" = "Failed to create user profile: %@";
+"auth.error.failed_update_name" = "Failed to update name: %@";
+"auth.error.no_user" = "No user signed in";
+"auth.error.failed_convert_image" = "Failed to convert image to data";
+"auth.error.failed_get_url" = "Failed to get download URL";
+"auth.error.user_disabled" = "This account has been disabled";
+"auth.error.email_in_use" = "This email is already in use";
+"auth.error.wrong_password" = "Incorrect password";
+"auth.error.user_not_found" = "No account found with this email";
+"auth.error.weak_password" = "Password is too weak";
+"auth.error.invalid_email" = "Invalid email address";
+"auth.error.network_error" = "Network error. Please check your connection and try again.";
+"auth.forgot_password.title" = "Reset Password";
+"auth.forgot_password.enter_email" = "Enter your email address";
+"auth.forgot_password.footer" = "We'll send you a link to reset your password.";
+"auth.forgot_password.send_link" = "Send Reset Link";
+"auth.forgot_password.success_message" = "Password reset email sent! Please check your inbox and follow the instructions to reset your password.";
+
+// Account
+"account.title" = "Account";
+"account.name" = "Name";
+"account.name.not_set" = "Not set";
+"account.name.cannot_change" = "Name cannot be changed after account creation";
+"account.role" = "Role";
+"account.role.admin" = "Admin";
+"account.profile" = "Profile";
+"account.profile_picture" = "Profile Picture";
+"account.profile_picture.change" = "Change Photo";
+"account.profile_picture.remove" = "Remove Photo";
+"account.profile_picture.remove_button" = "Remove";
+"account.profile_picture.remove.message" = "Are you sure you want to remove your profile picture?";
+"account.profile_picture.updated" = "Profile picture updated successfully!";
+"account.profile_picture.removed" = "Profile picture removed successfully!";
+"account.email" = "Email";
+"account.email.your_address" = "your email address";
+"account.user_id" = "User ID";
+"account.unknown" = "Unknown";
+"account.copy_email" = "Copy Email";
+"account.copy_user_id" = "Copy User ID";
+"account.copy_date" = "Copy Date";
+"account.copy_hint" = "Long press any item to copy to clipboard";
+"account.created" = "Account Created";
+"account.sign_up_method" = "Sign Up Method";
+"account.information" = "Account Information";
+"account.actions" = "Actions";
+"account.reset_password" = "Reset Password";
+"account.reset_password.send_email" = "Send Reset Email";
+"account.reset_password.message" = "Are you sure you want to reset your password? A password reset email will be sent to %@.";
+"account.reset_password.success" = "Password reset email sent! Please check your inbox.";
+"account.log_out" = "Log Out";
+"account.log_out.message" = "Are you sure you want to log out?";
+"account.success" = "Success";
+"account.error" = "Error";
+"account.error.load_image" = "Failed to load image: %@";
+"account.delete_account" = "Delete Account";
+"account.delete_account.title" = "Are you sure?";
+"account.delete_account.message" = "This will permanently delete your account and all associated data. This action cannot be undone. The Firebase extension will automatically delete your data from Firestore, Realtime Database, and Cloud Storage.";
+"account.delete_account.confirm" = "Delete";
+"button.ok" = "OK";
+"button.dismiss" = "Dismiss";
+
+// Tipping
+"tipping.title" = "Support SF POPOS";
+"tipping.description" = "Love exploring San Francisco's hidden spaces? Your support helps us keep the app free and add more POPOS!";
+"tipping.thanks" = "Thanks for your support!";
+"tipping.pending" = "The purchase is pending!";
+"tipping.cancelled" = "User cancelled the purchase.";
+"tipping.error.unverified" = "The purchase was successful, but app store couldn't verify it. Please try again.";
+"tipping.error.failed" = "There was an error processing your purchase. Please try again.";
+
+// POPOS Descriptions
+"popos.100_first.description" = "Two-level open space featuring a sun terrace with extensive landscaping, water features, and art sculptures. The ground level arcade connects to Mission Street with a grand staircase leading to the elevated terrace above.";
+"popos.100_pine.description" = "Urban garden featuring water fountains, landscaping, and art installations. This space offers a peaceful retreat in the Financial District with accessible pathways connecting to Front Street.";
+"popos.101_california.description" = "Large plaza with beautifully terraced seating and abundant plantings. Located at the corner of California and Davis Streets, this space features over 1,000 linear feet of seating on terraced steps with cushions available for comfort.";
+"popos.101_second.description" = "Greenhouse-style indoor park featuring large trees, floor-to-ceiling windows, and art installations. This two-level space includes a café and offers both bench seating and tables with movable chairs.";
+"popos.123_mission.description" = "Large urban garden plaza featuring extensive landscaping, trees, a waterfall, and art installations. The space includes separate seating areas with 122 linear feet of bench seating and is served by food service.";
+"popos.135_main.description" = "Indoor park located in the main lobby with a waterfall on glass creating a white noise effect. Features ample seating including four tables with movable chairs and seven lounge sofas. Open during business hours only.";
+"popos.14_fremont.description" = "Pedestrian walkway connecting Fremont and First Street that opens into an interior plaza. Features succulent planter boxes, extensive seating with tables and benches, and food service. A farmers market often operates here.";
+"popos.150_california.description" = "Sixth-floor view terrace with extensive city and bay views. Features abundant purple plantings, tall trees, an engaging art installation, and various seating options including tables with chairs and ledge seating.";
+"popos.160_spear.description" = "Well-landscaped outdoor alleyway off Spear Street featuring diverse grasses, trees, and a green wall. Includes ledges around green spaces for seating and movable chairs around tables. Food service available nearby.";
+"popos.2_folsom.description" = "Large urban garden plaza featuring diverse landscaping and art sculptures. The space includes several distinct seating areas with 76 seats total, creating multiple gathering spots throughout the plaza.";
+"popos.201_mission.description" = "Urban garden with seating along building setback areas. This hidden space offers a quiet retreat with landscaping and seating that becomes visible as you approach the building entrance.";
+"popos.201_spear.description" = "Plaza with seating along planters, offering views of the Embarcadero area. This space provides a convenient resting spot near the waterfront with linear seating integrated into the landscape design.";
+"popos.222_second.description" = "Enclosed greenhouse-style space with operable floor-to-ceiling windows and doors in the street-level lobby. Features warm wood walls, striking art, 63 movable chairs, 15 tables, and over 300 linear feet of seating. Includes café and Wi-Fi.";
+"popos.235_main.description" = "Combined plaza and indoor park at the corner of 2nd and Clementina Streets. The urban garden features bamboo and street trees, while the indoor park includes bushes and interesting paving. Served by a café with various seating options.";
+"popos.343_sansome.description" = "Fifteenth-floor view terrace offering excellent views of surrounding buildings, streets, and San Francisco Bay. Features abundant flower planters, shading trees, interesting paving, art including a large sundial, and various seating types.";
+"popos.425_market.description" = "Open plaza between buildings featuring 15 trees, 12 large planters with flowers, and bench seating. This urban garden provides a green oasis in the Financial District with 8 backed benches and 4 additional benches for comfortable seating.";
+"popos.456_montgomery.description" = "Sunken plaza landscaped with flowers and small water fountains. Accessible via escalators, this elegant space features 72 feet of linear seating, 8 movable chairs, and 2 tables. The sunken design creates a sense of separation from street activity.";
+"popos.49_stevenson.description" = "Pedestrian walkway connecting Stevenson and Jessie Streets with small fountains and an art sculpture. Features marble paving, potted plants, and seating available during the day. The walkway includes planter boxes and water features.";
+"popos.50_beale.description" = "Large well-landscaped plaza with over 30 trees and large open planters that attract birds. Features 40 bench seats and over 100 linear feet of planter seating, offering multiple seating options throughout the space.";
+"popos.543_howard.description" = "Public space featuring seating areas and garden landscaping. This accessible space provides a comfortable environment for relaxation and gathering in the SOMA district.";
+"popos.55_second.description" = "Large indoor park located inside a historic building with wooden floors, tables with chairs, and comfortable leather chairs on a carpeted section. Features large windows overlooking Stevenson Street, art on walls, and recreational games including giant Connect4, ping pong, and cornhole.";
+"popos.555_california.description" = "Elevated urban garden along California Street featuring tall grasses, shrubs, and a central pool surrounded by plants. Includes 24 small wooden bench seats located at the elevated plaza's eastern edge, offering views of the surrounding area.";
+"popos.555_mission.description" = "Large plaza featuring 9 trees, permeable gravel, and bushes. Includes 100 linear feet of bench seating and several distinct sitting areas with different styles of seating. The space features art and landscaping elements and is served by food service.";
+"popos.560_mission.description" = "Large plaza and indoor park featuring a sculpture in a pool of water, a large bamboo grove, and various forms of seating. Includes 64 movable chairs with 15 tables, 134 linear feet of ledge seating, and over 30 linear feet of bench seats. Served by a café.";
+"popos.611_folsom.description" = "Brick plaza with 7 trees and 6 bushes featuring interesting architectural elements and unconventional use of brick. Includes over 200 feet of deep brick ledge seating, artwork, and trees creating a unique urban environment.";
+"popos.71_stevenson.description" = "Pedestrian walkway connecting Stevenson and Jessie Streets with marble paving, potted plants, and a fountain. Features planter boxes and seating with tables outside the café. Multiple restaurants are located along this walkway.";
+"popos.citigroup_center.description" = "Atrium built with marble and covered with glass, creating a greenhouse-like environment. Features ample seating at tables with movable chairs and is served by a café and deli. The space provides a bright, airy atmosphere in the Financial District.";
+"popos.crocker_galleria.description" = "Third-floor sun terrace accessible via a dark hallway from the shopping center. Features 8 large planters with trees and shrubbery around edge planters, with 24 benches measuring 7 feet 8 inches. Food service available in the building below.";
+"popos.ecker_square.description" = "Plaza located along Mission Street at One Market Plaza entrance. Features some planters with benches and serves as a gathering space near the waterfront. Restaurants and cafés are located within One Market Plaza, open during business hours.";
+"popos.embarcadero_center.description" = "Pedestrian mall on ground and second levels along Commercial Street between Drumm and Sansome. Features trees, ferns, arbors, planters, fountains, artwork, and bench seating throughout. Accessible via elaborate staircase systems flanked by waterfalls.";
+"popos.empire_park.description" = "Urban garden featuring a water fountain, lots of plants and shade, and a diversity of trees. Includes 15 chairs with tables, 8 bench seats in the park, and 8 along Commercial Street. Gate at sidewalk opens during daylight hours. Food service available along Commercial Street.";
+"popos.foundry_square_i.description" = "One of three plazas at the intersection of 1st and Howard Streets forming Foundry Square. Features 8 trees, art sculptures, and seating near a café. Includes 20 linear seats and 24 movable chairs.";
+"popos.foundry_square_ii.description" = "One of three plazas at the 1st and Howard intersection forming Foundry Square. Features 8 trees, a sculpture, landscape elements, and seating near food services. Includes 44 movable chairs and 45 linear seats on planter box sides.";
+"popos.foundry_square_iii.description" = "One of three plazas at the 1st and Howard intersection forming Foundry Square. Features 8 trees, palm planters, 44 linear feet of seating on ledges, 21 seats on planter boxes, 7 tables with 28 chairs, and a sculpture. Served by food service.";
+"popos.foundry_square_iv.description" = "Indoor park and outdoor plaza near the main building entrance. Features 8 trees, art garden, seating with 25 movable seats, 6 tables, and 47 linear bench seats. Includes a café area with Wi-Fi and restrooms.";
+"popos.golden_gate_university.description" = "Concrete seating stretches along the passage connecting the recessed entrance of Golden Gate University to the sidewalk on Mission Street. Features over 200 feet of linear bench seating, providing a simple but functional public space.";
+"popos.marathon_plaza.description" = "Large triangular urban garden facing Second Street with a water feature, lush landscaping including real grass lawns and planters, and ample seating. Features 33 tables with 66 movable chairs and over 200 feet of bench seating. Deli and restaurant open to the park provide food and additional seating.";
+"popos.market_center.description" = "Large plaza featuring 9 trees, permeable gravel, and bushes. Includes 100 linear feet of bench seating and several distinct sitting areas with different styles of seating. The space features art and landscaping elements and is served by food service.";
+"popos.millenium_tower_atrium.description" = "Atrium and plaza featuring extensive artwork, 4 trees with lights, 10 medium plants, and various types of seating with tables. Includes 41 movable chairs and 24 linear seats. Served by a bar and restaurant on the premises with high windows overhead.";
+"popos.one_bush_plaza.description" = "Sunken urban garden featuring willow trees, plantings, and interesting architectural design. Includes a water fountain and is accessed via stairs from Bush Street and curved walkways from Market Street. The sunken design creates a sense of separation from street activity.";
+"popos.one_kearny.description" = "Eleventh-floor rooftop terrace with extensive views of Market Street and rooftop architecture of nearby buildings. Features hedges and other types of plants, 10 six-foot benches with approximately 20 linear seats. Accessible via elevator after signing in at the lobby.";
+"popos.shaw_alley.description" = "Large plaza featuring 9 trees, permeable gravel, and bushes. Includes 100 linear feet of bench seating and several distinct sitting areas with different styles of seating. The space features art and landscaping elements and is served by food service.";
+"popos.sky_terrace.description" = "Urban garden with seating along building setback areas. This hidden space offers a quiet retreat with landscaping and seating that becomes visible as you approach the building entrance.";
+"popos.the_clancy.description" = "Marriott Courtyard featuring multiple spaces including snippets with street trees, planter boxes with bushes and flowers, and an interior courtyard. Includes benches along sidewalk setbacks and a below-grade snippet with stair entry. Café service available.";
+"popos.transamerica_redwood_park.description" = "Extensively landscaped urban park at the foot of the Transamerica Pyramid featuring many redwood trees, diverse ground cover, flowers, and shrubs. Includes a tall water fountain, sculptures, and ample seating with over 100 linear feet of seating on boxes and room for 30+ on steps. Multiple smaller spaces are defined within the park.";
+"popos.daggett_park.description" = "Vibrant 0.88-acre public park in San Francisco's Showplace Square area. Features a large central lawn, fenced dog park, and unique sculptural play elements. Home to 'Shadow Kingdom,' a public art installation by Adriane Colburn featuring five stainless steel panels that form the shape of a California grizzly bear.";
+
+// POPOS Names
+"popos.100_first.name" = "100 First";
+"popos.100_pine.name" = "100 Pine";
+"popos.101_california.name" = "101 California";
+"popos.101_second.name" = "101 Second";
+"popos.123_mission.name" = "123 Mission";
+"popos.135_main.name" = "135 Main";
+"popos.14_fremont.name" = "14 Fremont";
+"popos.150_california.name" = "150 California";
+"popos.160_spear.name" = "160 Spear";
+"popos.2_folsom.name" = "2 Folsom";
+"popos.201_mission.name" = "201 Mission";
+"popos.201_spear.name" = "201 Spear";
+"popos.222_second.name" = "222 Second";
+"popos.235_main.name" = "235 Main";
+"popos.343_sansome.name" = "343 Sansome";
+"popos.425_market.name" = "425 Market";
+"popos.456_montgomery.name" = "456 Montgomery";
+"popos.49_stevenson.name" = "49 Stevenson";
+"popos.50_beale.name" = "50 Beale";
+"popos.543_howard.name" = "543 Howard";
+"popos.55_second.name" = "55 Second";
+"popos.555_california.name" = "555 California";
+"popos.555_mission.name" = "555 Mission";
+"popos.560_mission.name" = "560 Mission";
+"popos.611_folsom.name" = "611 Folsom";
+"popos.71_stevenson.name" = "71 Stevenson";
+"popos.citigroup_center.name" = "Citigroup Center";
+"popos.crocker_galleria.name" = "Crocker Galleria";
+"popos.ecker_square.name" = "Ecker Square";
+"popos.embarcadero_center.name" = "Embarcadero Center";
+"popos.empire_park.name" = "Empire Park";
+"popos.foundry_square_i.name" = "Foundry Square I";
+"popos.foundry_square_ii.name" = "Foundry Square II";
+"popos.foundry_square_iii.name" = "Foundry Square III";
+"popos.foundry_square_iv.name" = "Foundry Square IV";
+"popos.golden_gate_university.name" = "Golden Gate University";
+"popos.marathon_plaza.name" = "Marathon Plaza";
+"popos.market_center.name" = "Market Center";
+"popos.millenium_tower_atrium.name" = "Millenium Tower Atrium";
+"popos.one_bush_plaza.name" = "One Bush Plaza";
+"popos.one_kearny.name" = "One Kearny";
+"popos.shaw_alley.name" = "Shaw Alley";
+"popos.sky_terrace.name" = "Sky Terrace";
+"popos.the_clancy.name" = "The Clancy";
+"popos.transamerica_redwood_park.name" = "Transamerica Redwood Park";
+"popos.daggett_park.name" = "Daggett Park";
+
+// Amenities
+"amenity.terrace" = "Terrace";
+"amenity.indoor" = "Indoor";
+"amenity.seating" = "Seating";
+"amenity.garden" = "Garden";
+"amenity.plaza" = "Plaza";
+"amenity.greenhouse" = "Greenhouse";
+"amenity.walkway" = "Walkway";
+"amenity.art" = "Art";
+"amenity.wifi" = "WiFi";
+"amenity.atrium" = "Atrium";
+"amenity.park" = "Park";
+
+// FAQ
+"faq.question.app_size" = "Why is the app so big?";
+"faq.answer.app_size" = "The app takes up a large amount of space on your device due to there being lots of images that need to be used for this app to work. The upside about this is we do not use a database, so you're able to use this app while your device is offline.";
+"faq.question.more_popos" = "When will we see the rest of the POPOS added to the app?";
+"faq.answer.more_popos" = "We are working hard to add as many POPOS as possible, but it'll take time.";
+"faq.question.send_feedback" = "How can I send feedback for the app?";
+"faq.answer.send_feedback" = "If you're interested in sending feedback, first of all thank you! You can click ";
+"faq.answer.send_feedback.link" = "here";
+"faq.question.bug" = "I found a bug in the app";
+"faq.answer.bug" = "We're so sorry to hear that you found a bug in the app. If you'd like to, you can send it to us ";
+"faq.answer.bug.link" = "here";
+"faq.answer.bug.suffix" = " and we'll do our best to fix it as soon as possible.";
+"faq.question.location_permission" = "Why does the app need location permission?";
+"faq.answer.location_permission" = "We use your location to find the nearest POPOS near you to enhance your experience.";
+"faq.question.offline" = "How does the offline functionality work?";
+"faq.answer.offline" = "The app works without Wi-Fi because everything is downloaded locally on your device.";
+"faq.question.map_visibility" = "Why can't I see some POPOS on the map?";
+"faq.answer.map_visibility" = "Sometimes you can't see anything on the map due to location permissions, outdated device software, or something else.";
+"faq.question.update_frequency" = "How often is the app updated?";
+"faq.answer.update_frequency" = "We try to update our app at least once a month.";
+"faq.question.add_favorites" = "How do I add a POPOS to my favorites?";
+"faq.answer.add_favorites" = "You can add a POPOS to your favorites by tapping the heart icon on any POPOS card or in the detail view. The heart will turn red when it's added to your favorites.";
+"faq.question.share" = "Can I share POPOS locations with friends?";
+"faq.answer.share" = "You totally can! You can click the share icon inside any POPOS detail and share the details with your friends.";
+"faq.question.report_incorrect" = "How do I report incorrect information about a POPOS?";
+"faq.answer.report_incorrect" = "You can report incorrect data or a place that no longer exists at ";
+"faq.answer.report_incorrect.link" = "this form";
+"faq.answer.report_incorrect.suffix" = ".";
+"faq.question.map_vs_list" = "What's the difference between the map view and list view?";
+"faq.answer.map_vs_list" = "Map view shows POPOS locations on an interactive map where you can see their geographic distribution. List view shows POPOS in a scrollable list format, making it easier to browse through them quickly.";
+"faq.question.free" = "Is this app free to use?";
+"faq.answer.free" = "YES! The app is 100% free to use with no ads or in-app purchases.";
+"faq.question.internet_required" = "Do I need an internet connection to use the app?";
+"faq.answer.internet_required" = "Nope! The app works totally well offline except for the map functionality.";
+"faq.question.contact_developer" = "How do I contact the developer?";
+"faq.answer.contact_developer" = "Contact us at our website ";
+"faq.answer.contact_developer.link" = "here";
+"faq.answer.contact_developer.suffix" = ".";
+"faq.question.suggest_features" = "Can I suggest new features for the app?";
+"faq.answer.suggest_features" = "Absolutely! We love hearing your ideas. You can submit feature suggestions ";
+"faq.answer.suggest_features.link" = "here";
+"faq.answer.suggest_features.suffix" = ".";
+"faq.question.different" = "What makes this app different from other San Francisco guides?";
+"faq.answer.different" = "SF POPOS focuses specifically on San Francisco's Privately Owned Public Open Spaces - hidden green spaces that are often overlooked by other guides. Our app is designed to work offline and provides detailed information about these unique public spaces.";
+"faq.question.slow" = "The app is running slowly, what should I do?";
+"faq.answer.slow" = "Try closing and reopening the app, or restart your device. If the problem persists, you can reset the app data in the Profile settings.";
+"faq.question.notifications" = "I'm not receiving notifications, how do I fix this?";
+"faq.answer.notifications" = "Make sure notifications are enabled in your device settings and in the app's notification settings. You can also try toggling notifications off and back on in the Profile tab.";
+"faq.question.map_location" = "The map isn't showing my location correctly, what's wrong?";
+"faq.answer.map_location" = "Check that location permissions are enabled for the app in your device settings. Make sure your device's location services are turned on and try restarting the app.";
+"faq.question.reset_app" = "How do I reset the app if something goes wrong?";
+"faq.answer.reset_app" = "You can reset the app to factory defaults by going to Profile > Reset Data. This will clear all your data and settings, so use it as a last resort.";
